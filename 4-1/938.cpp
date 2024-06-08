@@ -5,6 +5,8 @@ using namespace std;
 int main(){
    int x,y,z,q,w,e,m,k;
    bool arr[100][100][100];
+   //string 是 C++ 標準庫中的類別，能夠動態調整大小，自動處理記憶體分配和釋放。
+   //char[1000] 是固定大小的字元陣列，不能動態調整大小，需要手動處理字串結尾（加上終止字元 '\0'）和記憶體管理。
    string s;
    cin >> x >> y >> z;
    cin >> s;
